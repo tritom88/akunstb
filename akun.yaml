@@ -1,5 +1,5 @@
 proxies:
-  - name: tritomVLw-globalssh_vless_ws_tls_sg
+  - name: akun-github-sg
     server: 104.17.3.81
     port: 443
     type: vless
