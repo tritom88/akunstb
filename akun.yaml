@@ -1,0 +1,16 @@
+proxies:
+  - name: tritomVLw-globalssh_vless_ws_tls_sg
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: d60c1b2a-c6f6-49b9-8c77-cf110cd8e676
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-sg01.jurnalid.my.id
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-sg01.jurnalid.my.id
+    udp: true
